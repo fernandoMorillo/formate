@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main_alliance {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(100, 205, 175, 0.9), rgba(100, 205, 175, 0.4)), url("../images/fondo_digital.jpg") center top;
+    background-size: cover;
+}
+
+.contacto {
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.40);
+}
+
+.title {
+    text-shadow: 1px 0 2px black !important;
+    ;
+}
+
+.title2 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+}
+
+.title__form {
+    color: rgba(0, 0, 0, 0.8) !important;
+    font-size: 25px;
+}
+
+.title__form:first-child {
+    margin-bottom: 0 !important;
+}
+
+.header {
+    padding: 7px 0;
+}
+
+.header__content {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 7px 0;
+}
+
+.header_gracias {
+    padding: 7px 0;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+.principal_header {
+    background-color: #94ddc5;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_gracias__logo img {
+    width: 74px;
+}
+
+.header__logo img {
+    width: 74px;
+}
+
+.title,
+.subtitle {
+    color: white;
+}
+
+.main__content p {
+    color: white;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.30);
+    font-weight: bold;
+}
+
+.title:not(.is-spaced)+.subtitle {
+    margin-top: -.5rem;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.30);
+    font-weight: bold;
+}
+
+.main_bullets {
+    margin-top: 20px;
+}
+
+.text-content {
+    padding: 20px 0;
+    height: 85%;
+}
+
+.main {
+    height: 100%;
+    align-items: center;
+}
+
+.main_section {
+    padding: 0 10px;
+}
+
+.form_content {
+    background: #F0F4F8;
+    box-shadow: 0 4px 28px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 30px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.form_content__button {
+    background: none;
+    border: none;
+    background: #52a38d;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form_content__button:hover {
+    cursor: pointer;
+}
+
+.form_main {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-card-title {
+    color: white !important;
+}
+.modal-card-head {
+    background-color: #70cdaa;
+
+}
+.modal-card-foot{
+    background-color: #70cdaa;
+}
+
+.btn-secondary {
+    background-color: #70cdaa !important;
+    border: #70cdaa !important;
+}
+.select{
+    width: 100%
+}
+.header__contact {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image_section__content {
+    text-align: center;
+}
+
+.image_section__content img {
+    width: 700px;
+    max-width: 100%;
+}
+
+.content_section {
+    text-align: center;
+    color: rgba(0, 0, 0, .8);
+}
+
+.content_section__title {
+    font-size: 40px;
+}
+
+.content_section__text {
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%;
+    margin: 10px auto 0;
+}
+
+.content_section__url a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .8);
+    font-weight: bold;
+}
+
+.content_section__url {
+    padding-top: 20px;
+}
+
+.content_section__redes img {
+    width: 32px;
+    margin-top: 10px;
+}
+
+.content_section__redes:last-child img {
+    width: 34px;
+}
+
+
+
+label a {
+    color: white;
+}
+
+label a:hover {
+    color: #f0f4f8;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .header__content {
+        flex-direction: column-reverse;
+    }
+    .header__logo {
+        margin-top: 10px;
+    }
+    .columns {
+        padding: 0 20px;
+    }
+    .main_alliance {
+        height: 100%;
+    }
+    .form_content {
+        width: 100%;
+    }
+    .content_section__text {
+        width: 100%;
+    }
+    .content_section__title {
+        font-size: 33px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1660px) {
+    .header__content,
+    .header_gracias {
+        max-width: 1250px;
+    }
+    .main_alliance {
+        height: 100% !important;
+    }
+}
